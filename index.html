@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+      <meta charset="utf-8">
+      <title>Zeadith</title>
+      <!-- <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two:700' rel='stylesheet' type='text/css'>
+
+      <link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
+      <link href='stylesheets/dist/hamburgers.css' rel ='stylesheet 'type ='text/css'>
+      <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <header class = 'page-header'>
+            <div class='header-title'>
+                <h1>Kasia Zadurska</h1>
+                <h3>Future front-end dev</h3>
+                <p>Welcome to my website, have a look and get to know me!</p>
+            </div>
+            <nav class ='page-nav'> 
+                <ul class ='navigation-menu is-closed'id='navigation-menu'>
+                       <li><a href="#about-me">About me</a></li><!-- 
+                    --><li><a href="#contact-me">Contact me</a></li><!--
+                    --><li><a href="#projects">Projects</a></li>
+                </ul>
+                <button id = 'hamburger-button' class="hamburger hamburger--collapse-r" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                 </span>
+                </button> 
+            </nav>
+        </header>
+        <section class='about-me' id='about-me'>
+                <article >
+                    <h2>About Kasia</h2>
+                    <img class = 'about-picture'src="img/zeadith.jpg" alt='zeadith' title='Yay, it is me!'>
+                    <h3>Your best web developer</h3>
+                    <p>Hi! I am na aspiring front end developer with passion for good quality code and attention to detail. 
+                    I am an organized and responsible person, caring about the quality of my performance. I find myself working very well both independently and in a team. </p>
+                    <p>I am a student of Warsaw University of Technology majoring in biomedical engineering. This led me to gain sufficient knowledge in a range of technical and scientific fields. I enjoy travelling not only as a hobby, byt also as a way to further educate myself.  During the student  exchange in the Erasmus programme at the Danish Technical University I had the opportunity to take part in various projects  and improve my knowledge of English, both in speech and in writing. During my participation in ATHENS programme I had an opportunity to meet students from all over Europe and collaborated with them on assigned projects.</p> 
+                    <p>For the last two years I have been consistently improving my level of German by taking part in  language courses and solving tests. </p>
+                    <h3>I do have a very particular set of skills</h3>
+                    <p>I have started my web development journey in the 6th grade of primary school coding my first website in <b>HTML</b>. Later on I learnt <b>CSS</b> to beautify my teenage blog. Last year I participated in <a href="http://codecarrotsjs.github.io/">Code Carrots JavaScript</a> course, which gave me good foundation of <b>JS</b> knowledge. I learnt about DOM, object oriented programming, <b>GIT</b >. I know now the basics of <b>jQuery</b> and <b>AngularJS</b>. I am able to write my projects' documentation using github's gist and markdown.</p>
+                    <p>I am a fast learner, my willingness to learn and discover new things drives me to improve and challenge myself constantly. I work efficiently under stress and organise my time well.</p>
+                    <h3>more on Kasia</h3>
+                    <p>My interests include watching snooker, dancing Cuban salsa, playing board games, watching Bruce Willis movies and reading Scandinavian detective novels.</p>
+                    <p>Caught your interest? <a href="#contact-me">Contact</a> me now!</p>
+                </article>
+            </section>
+            <section class='contact-me' id='contact-me'>
+                <h2>Contact information</h2>
+                <p>Please write me an e-mail at: kzadurska at gmail dot com.</p>
+            </section>
+            <section class='projects' id='projects'>
+                <h2>My projects</h2>
+                <article class='project-content'>
+                    <div class = 'project-description'>
+                        <h3>Quiz</h3>
+                        <p>A short quiz based on <a href="http://javascriptissexy.com/how-to-learn-javascript-properly/#Weeks_5_and_6_Regular_Expressionss_Window_Object_Events_jQuery">these</a> guidelines, focuses mainly on using jQuery, as well as figuring out, how to use github in pair programming.</p> <a href="https://github.com/katkor/Quiz">See repository >></a>
+                    </div>
+                    <div class ='project-preview'>
+                        <img src="img/quiz.png" alt='project preview'>
+                    </div> 
+                </article> 
+                <article class='project-content'>
+                    <div class = 'project-description'>
+                        <h3>Word training app</h3>
+                        <p>A simple tool to help me revise words I learn during my German classes. Uses jQuery and is responsive.</p>
+                        <a href="https://github.com/zeadith/german-word-training">See repository >></a>
+                    </div>
+                    <div class ='project-preview'>
+                        <img src="img/word-training.png" alt='Word training app preview'>
+                    </div> 
+                </article>  
+                <article class='project-content'>
+                    <div class = 'project-description'>
+                        <h3>News website</h3>                        
+                        <p>I am a frequent reader of a certain news website, and very often on my phone. Originally, there's no mobile version, so I decided to make one myself. It is much simpler and my first ever attempt to code a responsive website.</p>
+                        <a href="https://github.com/zeadith/News-website">See repository >></a>
+                    </div>
+                    <div class ='project-preview'>
+                        <img src="img/news-website.png" alt='News website  preview'>
+                    </div> 
+                </article>               
+                <article class ='other-projects'>
+                    <p>Other projects include exercises I did while attending Code Carrots JavaScript course organised by <a href="http://http://geekgirlscarrots.org/">Geek Girls Carrots</a>, for example a console-version of the game <a href="https://github.com/zeadith/Rock-Paper-Lizard">Rock Paper Scissors Lizard Spock</a>.</p>
+                </article>
+            </section>
+        <footer class ='page-footer'>
+            <nav class ='page-nav'>
+                <ul class ='navigation-menu'>
+                       <li><a href="#">Home</a></li><!--
+                    --><li><a href="#about-me">About me</a></li><!-- 
+                    --><li><a href="#contact-me">Contact me</a></li>
+
+                </ul>
+            </nav>
+            <div class = 'footer-title'>
+                <p>&copy Kasia Zadurska</p>
+            </div>
+        </footer>
+    <script type="text/javascript" src ='js/main.js'></script>
+    </body>
+</html>
