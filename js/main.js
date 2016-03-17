@@ -9,7 +9,7 @@ navigationButton.addEventListener('click', function () {
 //this is such an ugly way to do it but it works :c
 var navigationElementsList = document.getElementsByTagName('li');
 var aboutMe = document.getElementById ('about-me');
-var contactForm = document.getElementById ('contact-me');
+var contact = document.getElementById ('contact-me');
 var myProjects = document.getElementById ('projects');
 navigationElementsList[0].addEventListener('click', function () {
 	aboutMe.scrollIntoView ();
@@ -18,5 +18,5 @@ navigationElementsList[2].addEventListener('click', function () {
 	myProjects.scrollIntoView ();
 });
 navigationElementsList[1].addEventListener('click', function () {
-	contactForm.scrollIntoView ();
+	contact.scrollIntoView ();
 });
