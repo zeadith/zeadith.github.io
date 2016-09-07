@@ -1,5 +1,5 @@
 # zeadith.github.io
-Website about me, simple (I lack some graphic design skills) but informative ... and responsive!
+Website about me, simple but informative and responsive! Read about my skills, experience and projects. Enjoy!
 
 ###### Hamburger button
 
