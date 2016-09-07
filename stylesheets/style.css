@@ -131,6 +131,17 @@ p {
 	margin: 120px 0;
 }
 
+.contact-me > p {
+	text-align: center;
+}
+
+.contact-me a:link, .contact-me a:active, .contact-me a:visited {
+	color: #ffffff;
+}
+
+.contact-me .fa {
+	padding: 0 1rem;
+}
 
 /*---projects---*/
 .projects {
@@ -150,8 +161,6 @@ p {
 	padding: 3px;
 	margin: 10px 0;
 }
-
-
 
 /*---footer---*/
 .page-footer .page-nav {
